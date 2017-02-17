@@ -1,0 +1,43 @@
+html,
+*,
+*:before,
+*:after {
+  user-select: none;
+  cursor: default;
+}
+
+html,
+body,
+#root,
+.app,
+.welcome {
+  height: 100%;
+}
+
+.app,
+.welcome {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.app {
+  color: #616161;
+  background-color: #9e9e9e;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(207, 216, 220, 0.5);
+  outline: none !important;
+}
+
+@media (min-width: 47rem) {
+  .app,
+  .welcome {
+    font-size: 17px;
+  }
+}

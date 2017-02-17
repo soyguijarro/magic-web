@@ -1,0 +1,129 @@
+.experiment {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+.experiment__description {
+  background-color: #f5f5f5;
+  padding: 0.6rem 1.1rem;
+  border-bottom: 1px solid #e6e6e6;
+  flex-shrink: 0;
+}
+
+.experiment__description > * {
+  width: 100%;
+  max-width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experiment__description__top {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experiment__description__top__title {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0 0 0.35rem 0;
+}
+
+.experiment__description__top__subtitle {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin: 0;
+  color: #9e9e9e;
+}
+
+.experiment__description__top__button {
+  color: #bdbdbd;
+}
+
+.experiment__playground {
+  background-color: #ffffff;
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.experiment__playground__content,
+.experiment__playground__content--message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.experiment__playground__content {
+  padding: 1rem;
+}
+
+.experiment__playground__content--message {
+  max-width: 16rem;
+  padding: 2rem;
+}
+
+.experiment__playground__content--message__icon,
+.experiment__playground__content--message__icon--spin,
+.experiment__playground__content--message__icon--big {
+  color: #bdbdbd;
+}
+
+.experiment__playground__content--message__icon,
+.experiment__playground__content--message__icon--red,
+.experiment__playground__content--message__icon--green {
+  font-size: 3rem;
+  transition: color 0.2s ease;
+}
+
+.experiment__playground__content--message__icon--spin,
+.experiment__playground__content--message__icon--big {
+  font-size: 3.75rem;
+}
+
+.experiment__playground__content--message__icon--spin {
+  animation: spin 1s ease infinite;
+}
+
+.experiment__playground__content--message__icon--red {
+  color: #f44336;
+}
+
+.experiment__playground__content--message__icon--green {
+  color: #4caf50;
+}
+
+.experiment__playground__content--message__title {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.experiment__playground__content--stretched {
+  min-height: 15rem;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+.experiment__playground__content--stretched > * {
+  width: 100%;
+  height: 100%;
+}
+
+.experiment__playground__content__button {
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #607D8B;
+  padding: 1rem;
+  cursor: pointer;
+}
