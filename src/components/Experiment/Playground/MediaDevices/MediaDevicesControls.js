@@ -3,15 +3,15 @@ import Icon from '../../../Icon';
 
 const MediaDevicesControls = ({ snaps, areMultipleVideoDevices, handleVideoDeviceChange }) => (
   <div
-    className="experiment__playground__content__video__controls"
+    className="experiment__playground__content--media-devices__controls"
   >
     <div
-      className="experiment__playground__content__video__controls__strip"
+      className="experiment__playground__content--media-devices__controls__strip"
     >
       {
         snaps && snaps.map((snap, index) => (
           <img
-            className="experiment__playground__content__video__controls__strip__item"
+            className="experiment__playground__content--media-devices__controls__strip__item"
             alt={`Snap ${index}`}
             key={index}
             src={snap}

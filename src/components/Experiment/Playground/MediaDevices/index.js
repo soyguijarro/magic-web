@@ -115,10 +115,10 @@ class MediaDevices extends PureComponent {
 
     return (
       <div
-        className="experiment__playground__content__video"
+        className="experiment__playground__content--media-devices"
       >
         <video
-          className="experiment__playground__content__video__player"
+          className="experiment__playground__content--media-devices__player"
           ref={(video) => { this.videoElement = video; }}
           autoPlay
           onClick={this.takeVideoSnap}
