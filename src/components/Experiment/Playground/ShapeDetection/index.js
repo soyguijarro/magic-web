@@ -25,12 +25,12 @@ class ShapeDetection extends Component {
   }
 
   componentDidMount() {
-    if (!isFaceDetectionSupported) this.setState({ isSupported: false });
+    if (!isFaceDetectionSupported) return this.setState({ isSupported: false });
     this.photoElement.addEventListener('load', this.processPhoto);
   }
 
   componentWillUnmount() {
-    this.photoElement.removeEventListener('load', this.processPhoto);
+    if (this.photoElement) this.photoElement.removeEventListener('load', this.processPhoto);
   }
 
   startPhotoSelection(event) {
