@@ -4,7 +4,7 @@ import CallToAction from '../CallToAction';
 const GeolocationCallToAction = ({ handleClick }) => (
   <CallToAction
     icon="my_location"
-    text="See location"
+    text="Show location"
     handleClick={handleClick}
   />
 );

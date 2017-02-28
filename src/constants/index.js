@@ -38,12 +38,18 @@ export const EXPERIMENTS_TEXTS = {
     title: 'Anybody there?',
     description: 'Browsers can analyze pictures to detect various shapes. Tap below to take a photo or upload one. We\'ll tell you have many faces are in it.',
     apis: 'Shape Detection API'
+  },
+  'battery-network': {
+    title: 'Pulling the plug',
+    description: 'Browsers can read battery and network info. Tap below, then plug in your phone or change your connection to see what happens.',
+    apis: 'Battery Status, Network Information, Vibration APIs'
   }
 };
 
 export const EXPERIMENT_IDS_BY_ORDER = [
   'geolocation',
   'media-devices',
+  'battery-network',
   'notifications',
   'payment',
   'speech',

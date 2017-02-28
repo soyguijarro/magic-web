@@ -158,6 +158,10 @@
   padding: 1.2rem;
 }
 
+.experiment__playground__content__wrapper {
+  display: flex;
+}
+
 .experiment__playground__content__button {
   background: none;
   border: none;
