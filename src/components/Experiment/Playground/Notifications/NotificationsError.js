@@ -3,7 +3,7 @@ import ApiError from '../ApiError';
 
 const NotificationsError = ({ handleRetryClick }) => (
   <ApiError
-    icon="announcement"
+    icon="notifications_off"
     title="No notification"
     text="We could't send the notification. Please make sure you gave permission."
     handleRetryClick={handleRetryClick}

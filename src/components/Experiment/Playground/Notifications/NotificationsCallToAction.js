@@ -3,7 +3,7 @@ import CallToAction from '../CallToAction';
 
 const NotificationsCallToAction = ({ handleClick }) => (
   <CallToAction
-    icon="message"
+    icon="notifications"
     text="Notify now"
     handleClick={handleClick}
   />
