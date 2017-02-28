@@ -25,7 +25,7 @@ const MediaDevicesControls = ({ snaps, areMultipleVideoDevices, handleVideoDevic
         onClick={handleVideoDeviceChange}
       >
         <Icon
-          name="switch_camera"
+          name="switch_video"
         />
       </button>
     }
