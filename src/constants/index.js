@@ -43,6 +43,11 @@ export const EXPERIMENTS_TEXTS = {
     title: 'Pulling the plug',
     description: 'Browsers can read battery and network info. Tap below, then plug in your phone or change your connection to see what happens.',
     apis: 'Battery Status, Network Information, Vibration APIs'
+  },
+  'gamepad': {
+    title: 'Playing for real',
+    description: 'Browsers can detect connected gamepads and react to the control stick and button presses. Connect a gamepad to your device and tap below to try.',
+    apis: 'Gamepad API'
   }
 };
 
@@ -54,6 +59,7 @@ export const EXPERIMENT_IDS_BY_ORDER = [
   'payment',
   'speech',
   'shape-detection',
+  'gamepad',
   'bluetooth'
 ];
 

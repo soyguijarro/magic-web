@@ -26,7 +26,7 @@ const BatteryNetworkDisplay = ({ isBatteryCharging, batteryLevel, networkType })
       />
       <Message
         iconName={ICONS_BY_NETWORK_TYPE[networkType] || 'priority_high'}
-        text={capitalizeFirstLetter(networkType)}
+        text={capitalizeFirstLetter(networkType) || 'Unknown'}
       />
     </div>
   );
