@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-import Icon from './Icon';
 import { EXPERIMENT_IDS_BY_ORDER } from '../constants';
 import appIconUrl from '../images/icon.png';
 
@@ -30,7 +29,7 @@ const Welcome = () => (
     >
       For the most complete experience, use <a href={CHROME_CANARY_ANDROID_URL}>
       Chrome Canary for Android</a> with the Experimental Web Platform features
-      flag enabled. Some demos might not work in other browsers and platforms.
+      flag. Some demos might not work in other browsers and platforms.
     </p>
     <p
       className="welcome__text"
@@ -41,11 +40,7 @@ const Welcome = () => (
       className="welcome__button"
       to={`/magic-web/${EXPERIMENT_IDS_BY_ORDER[0]}`}
     >
-      <Icon
-        className="welcome__button__icon"
-        name="play_arrow"
-      />
-      Let's go
+      Get started
     </Link>
   </div>
 );

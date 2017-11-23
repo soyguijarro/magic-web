@@ -25,21 +25,23 @@
 
 .welcome__text {
   max-width: 20rem;
+  line-height: 1.35;
 }
 
 .welcome__text a {
+  cursor: pointer;
   color: inherit;
 }
 
 .welcome__button {
-  background: none;
-  border: 1px solid #ffffff;
-  border-radius: 0.3rem;
+  background: #ffffff;
+  border-radius: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 0.9rem;
   font-weight: 500;
-  color: #ffffff;
-  padding: 0.6rem;
+  color: #757575;
+  padding: 0.55rem 1rem;
   cursor: pointer;
   margin-top: 1.5rem;
   display: flex;
@@ -49,8 +51,7 @@
 
 .welcome__button:hover,
 .welcome__button:active {
-  background: #ffffff;
-  color: #c41162;
+  background: #eeeeee;
 }
 
 .welcome__button__icon {
