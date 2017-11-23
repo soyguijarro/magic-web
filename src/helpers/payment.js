@@ -10,8 +10,8 @@ export const requestPayment = () => {
   const details = {
     displayItems: [
       {
-        label: 'FrontFest 2018 ticket',
-        amount: { currency: 'EUR', value: '25.00' },
+        label: 'Codemotion 2018 ticket',
+        amount: { currency: 'EUR', value: '40.00' },
       },
       {
         label: 'Unicorn stickers',
@@ -20,7 +20,7 @@ export const requestPayment = () => {
     ],
     total: {
       label: 'Total',
-      amount: { currency: 'EUR', value: '30.00' },
+      amount: { currency: 'EUR', value: '45.00' },
     }
   };
   const options = {
