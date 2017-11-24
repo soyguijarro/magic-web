@@ -22,7 +22,7 @@ const BatteryNetworkDisplay = ({ isBatteryCharging, batteryLevel, networkType })
     <div className="experiment__playground__content__wrapper">
       <Message
         iconName={getBatteryIcon()}
-        text={batteryLevel ? `${Math.round(batteryLevel) * 100}%` : 'Unknown'}
+        text={batteryLevel ? `${Math.round(batteryLevel * 100)}%` : 'Unknown'}
       />
       <Message
         iconName={ICONS_BY_NETWORK_TYPE[networkType] || 'priority_high'}
