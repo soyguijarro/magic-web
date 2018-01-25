@@ -36,7 +36,7 @@ export const EXPERIMENTS_TEXTS = {
   },
   'shape-detection': {
     title: 'Anybody there?',
-    description: 'Browsers can analyze pictures to detect various shapes. Tap below to take a photo or upload one. We\'ll tell you have many faces are in it.',
+    description: 'Browsers can analyze pictures to detect various shapes. Tap below to take a photo or upload one. We\'ll tell you how many faces are in it.',
     apis: 'Shape Detection API'
   },
   'battery-network': {
